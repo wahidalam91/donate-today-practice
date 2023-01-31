@@ -72,9 +72,10 @@ a:hover{
 .amount-section h2{
     font-size: 50px;
     margin: 50px 20px;
+    color: black;
 }
 .amount-section p{
-    font-size: 25px;
+    font-size: 20px;
     margin: 50px 40px;
 }
 
@@ -86,6 +87,8 @@ a:hover{
 }
 
 .taka{
+    text-decoration: none;
+    color: #575757;
     border: 2px solid aliceblue;
     background-color: rgb(250, 252, 255);
     border-radius: 10px;
@@ -104,4 +107,24 @@ a:hover{
     font-size: 28px;
     font-weight: 900;
     color: tomato;
+}
+
+input{
+    margin-top: 50px 0;
+    border-style: hidden;
+    border: 1px solid transparent;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.line-area{
+    margin: 0 200px;
+    color: gray;
+    align-items: center;
+    justify-content: center;
 }
