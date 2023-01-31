@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Unbounded', cursive;
+    color: white;
+}
+
+.top-banner{
+    width: 100%;
+    padding: 100px 150px;
+    height: 100vh;
+    background-image: url(./images/donation130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-banner h1{
+    text-align: center;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin: 20px 30px;
+    padding: 10px 15px;
+}
+
+.top-banner p{
+    text-align: center;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin: 20px 30px;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    
+}
+
+.link-btn{
+    margin: 10% 40%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+    border: 2px solid yellowgreen;
+   background-color: yellowgreen;
+    border-radius: 20px;
+    padding: 20px 30px;
+
+}
+
+a:hover{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    border: 2px solid white;
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 20px 30px;
+
+}
+
+.amount-section{
+    margin: 25px 100px;
+    color: #575757;
+    text-align: center;
+}
+
+.amount-section h2{
+    font-size: 50px;
+    margin: 50px 20px;
+}
+.amount-section p{
+    font-size: 25px;
+    margin: 50px 40px;
+}
+
+.amount-tk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.taka{
+    border: 2px solid aliceblue;
+    background-color: rgb(250, 252, 255);
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 45px 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.taka:hover{
+    border: 2px solid tomato;
+    background-color: rgb(248, 240, 242);
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 45px 30px;
+    font-size: 28px;
+    font-weight: 900;
+    color: tomato;
+}
